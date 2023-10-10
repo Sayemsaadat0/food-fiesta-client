@@ -1,8 +1,9 @@
 import React from 'react';
+import Feedback from './Components/HomeComponents/Feedback';
 const page = () => {
   return (
     <div>
-      home
+      <Feedback />
     </div>
   );
 };
