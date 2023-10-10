@@ -9,13 +9,13 @@ import Link from "next/link";
 
 const BlogSlider = () => {
 	return (
-		<>
+		<div className="px-5 md:px-0">
 			<Swiper
 				slidesPerView={1}
 				spaceBetween={30}
 				freeMode={true}
 				pagination={{
-				  clickable: true,
+					clickable: true,
 				}}
 				breakpoints={{
 					640: {
@@ -44,7 +44,7 @@ const BlogSlider = () => {
 						}}
 						className="rounded-lg"
 					>
-						<div className="h-[450px] rounded-lg text-white p-2 bg-[#00000047]">
+						<div className="flex flex-col justify-between h-[450px] rounded-lg text-white p-4 bg-[#0000006f]">
 							<nav>
 								<ul className="uppercase">
 									<li className="flex">
@@ -60,6 +60,10 @@ const BlogSlider = () => {
 									</li>
 								</ul>
 							</nav>
+							<p className="pl-2 text-2xl leading-[30px] capitalize font-semibold">
+								foodpanda launches inaugural partner summit as
+								part of future-proofing its merchant ecosystem
+							</p>
 						</div>
 					</div>
 				</SwiperSlide>
@@ -67,13 +71,13 @@ const BlogSlider = () => {
 					<div
 						style={{
 							backgroundImage:
-								"url('https://i.ibb.co/zrLbRBq/img1.png')",
+								"url('https://i.ibb.co/fG5bC8F/img2.png')",
 							backgroundSize: "cover",
 							backgroundRepeat: "no-repeat",
 						}}
 						className="rounded-lg"
 					>
-						<div className="h-[450px] rounded-lg text-white p-2 bg-[#00000047]">
+						<div className="flex flex-col justify-between h-[450px] rounded-lg text-white p-2 bg-[#0000006f]">
 							<nav>
 								<ul className="uppercase">
 									<li className="flex">
@@ -89,6 +93,10 @@ const BlogSlider = () => {
 									</li>
 								</ul>
 							</nav>
+							<p className="pl-2 text-2xl leading-[30px] capitalize font-semibold">
+								foodpanda launches inaugural partner summit as
+								part of future-proofing its merchant ecosystem
+							</p>
 						</div>
 					</div>
 				</SwiperSlide>
@@ -102,7 +110,7 @@ const BlogSlider = () => {
 						}}
 						className="rounded-lg"
 					>
-						<div className="h-[450px] rounded-lg text-white p-2 bg-[#00000047]">
+						<div className="flex flex-col justify-between h-[450px] rounded-lg text-white p-2 bg-[#0000006f]">
 							<nav>
 								<ul className="uppercase">
 									<li className="flex">
@@ -118,6 +126,10 @@ const BlogSlider = () => {
 									</li>
 								</ul>
 							</nav>
+							<p className="pl-2 text-2xl leading-[30px] capitalize font-semibold">
+								foodpanda launches inaugural partner summit as
+								part of future-proofing its merchant ecosystem
+							</p>
 						</div>
 					</div>
 				</SwiperSlide>
@@ -131,7 +143,7 @@ const BlogSlider = () => {
 						}}
 						className="rounded-lg"
 					>
-						<div className="h-[450px] rounded-lg text-white p-2 bg-[#00000047]">
+						<div className="pl-2 flex flex-col justify-between h-[450px] rounded-lg text-white p-2 bg-[#0000006f]">
 							<nav>
 								<ul className="uppercase">
 									<li className="flex">
@@ -147,6 +159,10 @@ const BlogSlider = () => {
 									</li>
 								</ul>
 							</nav>
+							<p className="text-2xl leading-[30px] capitalize font-semibold">
+								foodpanda launches inaugural partner summit as
+								part of future-proofing its merchant ecosystem
+							</p>
 						</div>
 					</div>
 				</SwiperSlide>
@@ -160,9 +176,9 @@ const BlogSlider = () => {
 						}}
 						className="rounded-lg"
 					>
-						<div className="h-[450px] rounded-lg text-white p-2 bg-[#00000047]">
+						<div className="flex flex-col justify-between h-[450px] rounded-lg text-white p-2 bg-[#0000006f]">
 							<nav>
-								<ul className="uppercase">
+								<ul className="uppercase px-5">
 									<li className="flex">
 										<Link className="mx-2" href="/">
 											Business
@@ -176,6 +192,10 @@ const BlogSlider = () => {
 									</li>
 								</ul>
 							</nav>
+							<p className="pl-2 text-2xl leading-[30px] capitalize font-semibold">
+								foodpanda launches inaugural partner summit as
+								part of future-proofing its merchant ecosystem
+							</p>
 						</div>
 					</div>
 				</SwiperSlide>
@@ -189,7 +209,7 @@ const BlogSlider = () => {
 						}}
 						className="rounded-lg"
 					>
-						<div className="h-[450px] rounded-lg text-white p-2 bg-[#00000047]">
+						<div className="flex flex-col justify-between h-[450px] rounded-lg text-white p-2 bg-[#0000006f]">
 							<nav>
 								<ul className="uppercase">
 									<li className="flex">
@@ -205,11 +225,15 @@ const BlogSlider = () => {
 									</li>
 								</ul>
 							</nav>
+							<p className="pl-2 text-2xl leading-[30px] capitalize font-semibold">
+								foodpanda launches inaugural partner summit as
+								part of future-proofing its merchant ecosystem
+							</p>
 						</div>
 					</div>
 				</SwiperSlide>
 			</Swiper>
-		</>
+		</div>
 	);
 };
 
