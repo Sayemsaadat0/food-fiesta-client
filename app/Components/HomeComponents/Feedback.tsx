@@ -1,6 +1,9 @@
+import {AiTwotoneStar, AiOutlineStar} from 'react-icons/ai'
+import ProgressBar from './ProgressBar'
+
 const Feedback = () => {
   return (
-    <div className="container p-5 lg:p-0">
+    <div className="container p-5 lg:p-0 py-16">
 
       {/* Section Heading */}
       <div className="lg:flex justify-between gap-10 ">
@@ -14,10 +17,32 @@ const Feedback = () => {
         </div>
         {/* Star Based Review */}
         <div className="max-w-[600px] w-full">
-          <p>Based on 2304 reviews</p>
+          <p className="text-xl font-semibold">Based on 2304 reviews</p>
+          
+          <div className='flex items-center gap-5 mt-2'>
+            <span className='text-xl font-medium'>4/5</span>
+            <div className='flex items-center gap-2'>
+            <AiTwotoneStar />
+              <AiTwotoneStar />
+              <AiTwotoneStar />
+              <AiTwotoneStar />
+              <AiOutlineStar />
+            </div> 
+          </div>
+
+          <div className='mt-5'>
+              <ProgressBar length={47} value={5} />
+              <ProgressBar length={24} value={4} />
+              <ProgressBar length={18} value={3} />
+              <ProgressBar length={6} value={2} />
+              <ProgressBar length={5} value={1} />
+          </div>
 
         </div>
       </div>
+
+      {/* Review Card */}
+
     </div>
   )
 }
