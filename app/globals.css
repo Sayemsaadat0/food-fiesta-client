@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper {
+	padding-bottom: 70px !important;
+}
+
+.swiper-pagination-bullet {
+	width: 14px !important;
+	height: 14px !important;
+	opacity: 100% !important;
+	background: #ff00dd54 !important;
+}
+
+.swiper-pagination-bullet-active {
+	background: #ff00dd !important;
+}
+
+@layer components {
+	.container {
+		@apply w-full max-w-[1440px] px-5 mx-auto;
+	}
+}
+
