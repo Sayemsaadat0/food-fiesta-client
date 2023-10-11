@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
+import CompanyLogo from "./Components/HomeComponents/CompanyLogo";
 const page = () => {
   return (
-    <div>
-      home
+    <div className="container mx-auto">
+      <CompanyLogo />
     </div>
   );
 };
