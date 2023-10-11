@@ -85,7 +85,7 @@ const Feedback = () => {
 				modules={[Navigation]}
           className="mySwiper"
         >
-        {reviews.map((review, index) =><SwiperSlide key={index} className='py-10'> <ReviewCard review={review}/> </SwiperSlide>)}
+        {reviews.map((review, index) =><SwiperSlide key={index} className='py-10 h-full'> <ReviewCard review={review}/> </SwiperSlide>)}
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
             <BsArrowLeftSquareFill />
