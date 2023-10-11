@@ -1,9 +1,31 @@
+"use client"
+
 import {AiTwotoneStar, AiOutlineStar} from 'react-icons/ai'
 import ProgressBar from './ProgressBar'
+import ReviewCard from './ReviewCard'
+import { useEffect, useState } from 'react';
 
 const Feedback = () => {
+
+  const [reviews, setReviews] = useState([]);
+
+  useEffect(() => {
+    const reviewData = async () => {
+      try {
+        const response = await fetch('/reviews.json');
+        const data = await response.json();
+        setReviews(data);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    reviewData();
+  }, []);
+
+
   return (
-    <div className="container p-5 lg:p-0 py-16">
+    <div className="container p-5 lg:p-0 my-16">
 
       {/* Section Heading */}
       <div className="lg:flex justify-between gap-10 ">
@@ -22,7 +44,7 @@ const Feedback = () => {
           <div className='flex items-center gap-5 mt-2'>
             <span className='text-xl font-medium'>4/5</span>
             <div className='flex items-center gap-2'>
-            <AiTwotoneStar />
+              <AiTwotoneStar />
               <AiTwotoneStar />
               <AiTwotoneStar />
               <AiTwotoneStar />
@@ -42,6 +64,10 @@ const Feedback = () => {
       </div>
 
       {/* Review Card */}
+      <div className='py-10 flex justify-between gap-10 flex-wrap'>
+        {reviews.map((review, index) => <ReviewCard key={index} review={review}/>)}
+        
+      </div>
 
     </div>
   )

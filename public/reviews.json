@@ -1,0 +1,62 @@
+[
+  {
+    "rating": 4,
+    "name": "Jason Mamoa",
+    "date": "April 25, 2023",
+    "review": "I've been using this online food delivery website for a while now, and I must say I'm quite impressed. The user interface is user-friendly and easy to navigate, making it a breeze to browse through various restaurants and their menus. The ordering process is seamless, and I appreciate the variety of payment options available."
+  },
+  {
+    "rating": 5,
+    "name": "Emma Watson",
+    "date": "May 2, 2023",
+    "review": "This platform is a game-changer for me. It has made ordering food so convenient. The selection of restaurants is fantastic, and the delivery is consistently quick. I'm a loyal customer now!"
+  },
+  {
+    "rating": 4,
+    "name": "John Smith",
+    "date": "June 15, 2023",
+    "review": "I'm quite satisfied with this food delivery service. The food quality is excellent, and I've had no issues with my orders. It's my go-to choice when I don't feel like cooking."
+  },
+  {
+    "rating": 3,
+    "name": "Alice Johnson",
+    "date": "July 5, 2023",
+    "review": "Decent service overall. The website is easy to use, but the delivery times vary. I've had some great meals, but a few disappointments as well."
+  },
+  {
+    "rating": 5,
+    "name": "David Brown",
+    "date": "August 9, 2023",
+    "review": "Outstanding food delivery platform! The options are endless, and the delivery is consistently on time. I highly recommend it."
+  },
+  {
+    "rating": 4,
+    "name": "Sarah White",
+    "date": "September 14, 2023",
+    "review": "A reliable food delivery website. I've never had a problem with orders. The reviews and ratings help in choosing the right restaurants. Great experience!"
+  },
+  {
+    "rating": 3,
+    "name": "Michael Lee",
+    "date": "October 8, 2023",
+    "review": "It's decent, but there's room for improvement. Sometimes, the estimated delivery times are off. Otherwise, the food quality is generally good."
+  },
+  {
+    "rating": 5,
+    "name": "Sophia Martinez",
+    "date": "November 3, 2023",
+    "review": "I love this service! The variety of cuisines and the convenience are unbeatable. It's a game-changer for busy people."
+  },
+  {
+    "rating": 4,
+    "name": "Daniel Wilson",
+    "date": "December 20, 2023",
+    "review": "Great for quick and delicious meals. The app is intuitive, and I've had consistent positive experiences with food quality and delivery times."
+  },
+  {
+    "rating": 5,
+    "name": "Olivia Anderson",
+    "date": "January 12, 2024",
+    "review": "Absolutely fantastic! This website has made my life so much easier. The variety of restaurants is impressive, and I've never been disappointed."
+  }
+]
