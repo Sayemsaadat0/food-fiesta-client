@@ -3,7 +3,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "./Components/Shared/Navbar/Navbar";
 import Footer from "./Components/Shared/Footer/Footer";
-import '@smastrom/react-rating/style.css'
+import '@smastrom/react-rating/style.css';
+import 'swiper/css';
+import "swiper/css/effect-coverflow";
+import "swiper/css/navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 

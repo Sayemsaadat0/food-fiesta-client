@@ -1,5 +1,5 @@
 import React from 'react';
-import Feedback from './Components/HomeComponents/Feedback';
+import Feedback from './Components/HomeComponents/Feedback/Feedback';
 const page = () => {
   return (
     <div>

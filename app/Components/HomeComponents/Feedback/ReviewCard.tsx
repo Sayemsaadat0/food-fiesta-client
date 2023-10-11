@@ -12,7 +12,7 @@ const ReviewCard = ({review} : data) => {
     inactiveFillColor: '#c1c2c5',
   };
   return (
-    <div className='p-5 border-2 border-gray-300 max-w-2xl w-full'>
+    <div className='p-5 border-2 border-gray-300 max-w-2xl w-full bg-[#F9FAFC] min-h-full'>
       <div className='flex items-center gap-5'>
         <Rating
           style={{ maxWidth: 150, height: 25 }}
